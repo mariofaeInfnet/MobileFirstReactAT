@@ -1,0 +1,64 @@
+nav{
+  background-color: #40434eff;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  flex-grow: 1;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 4x;
+}
+
+.navItem{
+  padding: 8px;
+  text-align: center;
+  transition-duration: 300ms;
+  width: 100vw;
+  display: none;
+}
+
+a {
+  color: #a6b1e1ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cacfd6ff;;
+}
+
+.active .toggle{
+  padding: 4px;
+  font-size: 1.3em;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+}
+
+.active .navItem{
+  display: block;
+}
+
+/*propriedades versão extendida */
+@media (min-width: 360px) {
+  .navItem {
+    width: auto;
+    display: flex;
+  }
+
+  .toggle {
+    display: none;
+  }
+}

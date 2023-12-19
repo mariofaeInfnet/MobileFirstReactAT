@@ -1,0 +1,24 @@
+.content{
+  padding: 16px;
+}
+.questionCard{
+  padding: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.questionDate{
+  line-height: .1em;
+  margin-left: 8px;
+  font-size: 0.6em;
+  opacity: 0.7;
+}
+.questionText{
+  margin-left: 8px;
+  line-height: .9em;
+}
+.questionAnswer{
+  margin-left: 16px;
+  line-height: .9em;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
